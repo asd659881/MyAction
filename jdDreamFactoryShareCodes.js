@@ -24,7 +24,7 @@ if (process.env.DREAM_FACTORY_SHARE_CODES) {
 } else if (process.env.DREAM_FACTORY_SHARE_CODES) {
   console.log(`由于您secret里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！`)
 }
-for (let i = 0; i < shareCodes.length; i++) {
-  const index = (i + 1 === 1) ? '' : (i + 1);
-  exports['shareCodes' + index] = shareCodes[i];
-}
+// for (let i = 0; i < shareCodes.length; i++) {
+//   const index = (i + 1 === 1) ? '' : (i + 1);
+//   exports['shareCodes' + index] = shareCodes[i];
+// }
